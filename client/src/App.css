@@ -1,0 +1,12 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
