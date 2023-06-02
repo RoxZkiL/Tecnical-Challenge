@@ -1,0 +1,123 @@
+.sidebar-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  margin: 2.5rem auto 1.2rem auto;
+}
+
+.category-elements {
+  text-align: left;
+}
+
+.main-title {
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.category-elements,
+.category-list,
+.price-filter,
+.condition-filter,
+.search-filter {
+  margin-bottom: 20px;
+  width: 80%;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.category-elements h3,
+.category-list h3,
+.price-filter h3,
+.condition-filter h3,
+.search-filter h3 {
+  margin: 2.5rem auto;
+  font-style: italic;
+  border-bottom: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  width: 80%;
+  font-weight: bold;
+}
+
+.price-filter input[type="text"] {
+  box-sizing: border-box;
+  margin: 0 6px;
+  width: 6rem;
+  max-width: 7rem;
+  height: 2rem;
+  border-radius: 6px;
+  padding: 0 0.5rem;
+  outline: none;
+  border: 0;
+  font-size: 1.2rem;
+}
+
+.price-filter input[type="text"]:focus {
+  box-shadow: 0 0 0 2px rgb(201, 234, 234);
+}
+
+.price-filter input[type="submit"] {
+  font-weight: lighter;
+  height: 2rem;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(228, 243, 255);
+  width: 2rem;
+  font-size: large;
+  cursor: pointer;
+  margin-left: 2px;
+}
+
+.price-filter input[type="submit"]:hover {
+  border: none;
+  background-color: rgb(208, 234, 255);
+  box-shadow: 0 0 0 -4px rgb(201, 234, 234);
+}
+
+.price-filter label {
+  font-size: 1.6rem;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  margin: 1rem 1.4rem;
+  transform: scale(1.5); /* Ajusta el valor según tus necesidades */
+}
+
+.search-filter input[type="text"] {
+  margin: 0 4px;
+  width: 65%;
+  height: 2.5rem;
+  border-radius: 6px;
+  outline: none;
+  border: 0;
+  padding: 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.search-filter input:focus {
+  box-shadow: 0 0 0 2px rgb(201, 234, 234);
+}
+
+.search-filter input[type="submit"] {
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: rgb(228, 243, 255);
+  width: 25%;
+  border: none;
+  height: 2.5rem;
+  border-radius: 4px;
+}
+
+.search-filter input[type="submit"]:hover {
+  background-color: rgb(208, 234, 255);
+  box-shadow: 4px rgb(0, 246, 246);
+  font-weight: 400;
+}
+
